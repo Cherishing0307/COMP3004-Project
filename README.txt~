@@ -1,0 +1,29 @@
+COMP3004A Winter 2020
+Group Project
+Team #9
+
+Graham Airth
+Tom Roberts
+Rishi Parameswaran
+Hussien Dabarani
+
+Qt project to run a simulator of a Microcurrent Technology (MCT) device similar to the Denas or Avazzia.
+
+Instructions:
+-Load the project (COMP3004-DenasApp.pro) in Qt Creator, and compile/run.
+
+Code Description:
+
+We simulate the device (represented by [mainwindow.cpp]), along with its battery (battery.cpp), and the waveform (waveform.cpp) that it produces. A simulator control (SimulatorControl.cpp) addresses issues specific to the overall simulation rather than just the device itself;  e.g. it allows you to recharge the battery, and apply the device to the skin. 
+
+
+Contents:
+
+ battery.cpp                  mainwindow.h           simulatorcontrol.ui
+ battery.h                    mainwindow.ui          waveform.cpp
+ battery.ui                   README.md              waveform.h
+ COMP3004-DenasApp.pro        waveform.ui
+ COMP3004-DenasApp.pro.user   REAME.txt             
+ main.cpp                     simulatorcontrol.cpp
+ mainwindow.cpp               simulatorcontrol.h
+
